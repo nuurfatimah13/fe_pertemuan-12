@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import DetailMovie from "../../components/DetailMovie";
 import Movies from "../../components/Movies/Movies";
-import ENDPOINTS from "../../utils/constants/endpoint";
+import ENDPOINTS from "../../utils/constants/endpoints";
 
 function Detail() {
   // Simpan movies (state), id (params) ke variable

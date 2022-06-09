@@ -2,7 +2,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { useParams } from "react-router-dom";
-import ENDPOINTS from '../../utils/constants/endpoint';
+import ENDPOINTS from '../../utils/constants/endpoints';
 import Button from '../ui/Button';
 import StyledDetailMovie from './DetailMovie.styled';
 

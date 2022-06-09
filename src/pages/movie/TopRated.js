@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Hero from '../../components/Hero/Hero';
 import Movies from '../../components/Movies/Movies';
-import ENDPOINTS from '../../utils/constants/endpoint';
+import ENDPOINTS from '../../utils/constants/endpoints';
 
 function TopRatedMovie() {
   // Membuat state movies

@@ -2,7 +2,7 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import Button from '../ui/Button';
-import ENDPOINTS from '../../utils/constants/endpoint';
+import ENDPOINTS from '../../utils/constants/endpoints';
 import StyledHero, { Container } from './Hero.styled';
 
 function Hero() {
